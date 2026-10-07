@@ -1,0 +1,22 @@
+title = "Host Helper secret scanning"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "airbnb-private-calendar-feed"
+description = "An Airbnb calendar export token grants access to private booking data"
+regex = '''https?://(?:www\.)?airbnb\.[a-z.]+/calendar/ical/[^\s"'<>?]+\?[^\s"'<>]*?\bt=([A-Za-z0-9_-]{8,})'''
+secretGroup = 1
+keywords = ["/calendar/ical/"]
+
+[[rules.allowlists]]
+regexTarget = "secret"
+regexes = ['''^YOUR_ICS_TOKEN$''', '''^EXAMPLE_ICS_TOKEN$''']
+
+[[rules]]
+id = "heartbeat-ping-url"
+description = "Private heartbeat URLs permit forging monitoring pings"
+regex = '''https?://(?:hc-ping\.com|healthchecks\.io)/([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})'''
+secretGroup = 1
+keywords = ["hc-ping.com", "healthchecks.io"]

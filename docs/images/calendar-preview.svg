@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+<title id="title">Host Helper illustrative calendar preview</title>
+<desc id="desc">Synthetic October bookings, family dates, trash reminders, and cleaning-payment tasks. This illustration contains no live account data.</desc>
+<rect width="1120" height="520" rx="16" fill="#f1f5f9"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="32" y="46" font-size="24" font-weight="700" fill="#0f172a">Host Helper</text>
+<text x="32" y="73" font-size="14" fill="#475569">Booking changes become a clear operating schedule.</text>
+<rect x="841" y="29" width="245" height="28" rx="14" fill="#e2e8f0"/>
+<text x="963" y="48" text-anchor="middle" font-size="12" fill="#334155">Illustrative preview · synthetic data</text>
+<rect x="28" y="101" width="1064" height="343" rx="10" fill="#fff" stroke="#cbd5e1"/>
+<text x="48" y="133" font-size="17" font-weight="700" fill="#1e293b">October 11–17, 2026</text>
+<line x1="28" y1="153" x2="1092" y2="153" stroke="#e2e8f0"/>
+
+<text x="44" y="179" font-size="11" fill="#64748b">SUN</text><text x="44" y="205" font-size="20" font-weight="700" fill="#334155">11</text>
+<line x1="180" y1="153" x2="180" y2="444" stroke="#e2e8f0"/>
+<text x="196" y="179" font-size="11" fill="#64748b">MON</text><text x="196" y="205" font-size="20" font-weight="700" fill="#334155">12</text>
+<line x1="332" y1="153" x2="332" y2="444" stroke="#e2e8f0"/>
+<text x="348" y="179" font-size="11" fill="#64748b">TUE</text><text x="348" y="205" font-size="20" font-weight="700" fill="#334155">13</text>
+<line x1="484" y1="153" x2="484" y2="444" stroke="#e2e8f0"/>
+<text x="500" y="179" font-size="11" fill="#64748b">WED</text><text x="500" y="205" font-size="20" font-weight="700" fill="#334155">14</text>
+<line x1="636" y1="153" x2="636" y2="444" stroke="#e2e8f0"/>
+<text x="652" y="179" font-size="11" fill="#64748b">THU</text><text x="652" y="205" font-size="20" font-weight="700" fill="#334155">15</text>
+<line x1="788" y1="153" x2="788" y2="444" stroke="#e2e8f0"/>
+<text x="804" y="179" font-size="11" fill="#64748b">FRI</text><text x="804" y="205" font-size="20" font-weight="700" fill="#334155">16</text>
+<line x1="940" y1="153" x2="940" y2="444" stroke="#e2e8f0"/>
+<text x="956" y="179" font-size="11" fill="#64748b">SAT</text><text x="956" y="205" font-size="20" font-weight="700" fill="#334155">17</text>
+<rect x="36" y="228" width="440" height="50" rx="6" fill="#ede9fe"/>
+<text x="46" y="248" font-size="12" font-weight="700" fill="#5b21b6">Sample booking A</text>
+<text x="46" y="265" font-size="11" fill="#5b21b6">Checkout Tuesday · 10:00</text>
+<rect x="492" y="228" width="288" height="50" rx="6" fill="#e2e8f0"/>
+<text x="502" y="248" font-size="12" font-weight="700" fill="#334155">Family dates</text>
+<text x="502" y="265" font-size="11" fill="#334155">Blocked on source calendar</text>
+<rect x="796" y="228" width="288" height="50" rx="6" fill="#ede9fe"/>
+<text x="806" y="248" font-size="12" font-weight="700" fill="#5b21b6">Sample booking B</text>
+<text x="806" y="265" font-size="11" fill="#5b21b6">Check-in Friday · 16:00</text>
+<rect x="36" y="294" width="136" height="50" rx="6" fill="#ffedd5"/>
+<text x="46" y="314" font-size="12" font-weight="700" fill="#9a3412">Put out trash</text>
+<text x="46" y="331" font-size="11" fill="#9a3412">19:00 · Mon pickup</text>
+<rect x="492" y="294" width="136" height="50" rx="6" fill="#ffedd5"/>
+<text x="502" y="314" font-size="12" font-weight="700" fill="#9a3412">Put out trash</text>
+<text x="502" y="331" font-size="11" fill="#9a3412">19:00 · Thu pickup</text>
+<rect x="340" y="354" width="136" height="50" rx="6" fill="#dbeafe"/>
+<text x="350" y="374" font-size="12" font-weight="700" fill="#1e40af">Pay cleaners</text>
+<text x="350" y="391" font-size="11" fill="#1e40af">Checkout reminder</text>
+<rect x="492" y="354" width="136" height="50" rx="6" fill="#dbeafe"/>
+<text x="502" y="374" font-size="12" font-weight="700" fill="#1e40af">Restock supplies</text>
+<text x="502" y="391" font-size="11" fill="#1e40af">Before family ends</text>
+<rect x="34" y="472" width="14" height="14" rx="3" fill="#ede9fe" stroke="#cbd5e1"/><text x="57" y="484" font-size="12" fill="#475569">Bookings</text>
+<rect x="208" y="472" width="14" height="14" rx="3" fill="#e2e8f0" stroke="#cbd5e1"/><text x="231" y="484" font-size="12" fill="#475569">Family dates</text>
+<rect x="396" y="472" width="14" height="14" rx="3" fill="#ffedd5" stroke="#cbd5e1"/><text x="419" y="484" font-size="12" fill="#475569">Trash reminders</text>
+<rect x="640" y="472" width="14" height="14" rx="3" fill="#dbeafe" stroke="#cbd5e1"/><text x="663" y="484" font-size="12" fill="#475569">Google Tasks reminders</text>
+</g></svg>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Try Host Helper: a vacation rental calendar that keeps cleaning and maintenance reminders in step with bookings.">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'">
+    <meta name="theme-color" content="#f7f8fa">
+    <title>Host Helper · Interactive demo</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./data.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#demo">Skip to demo</a>
+    <header class="site-header wrap">
+      <a class="brand" href="./" aria-label="Host Helper home">
+        <img src="./favicon.svg" width="34" height="34" alt="">
+        <span>Host Helper</span>
+      </a>
+      <a class="repo-link" href="https://github.com/Satoshilab21/host-helper">
+        View on GitHub <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main class="wrap">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> VACATION RENTAL AUTOMATION</p>
+        <h1 id="page-title">Every stay. A clear next step.</h1>
+        <p class="intro-copy">Bookings, cleaning, and upkeep in one clear schedule.<br class="desktop-break"> Try a change and see the reminders follow.</p>
+        <p class="sample-note">Interactive demo <span aria-hidden="true">·</span> Invented bookings <span aria-hidden="true">·</span> No account needed</p>
+      </section>
+
+      <section id="demo" class="demo" aria-labelledby="demo-title">
+        <div class="scenario-heading">
+          <h2 id="demo-title">Start with Standard, then Enrich</h2>
+          <span>See what Host Helper adds to a booking calendar.</span>
+        </div>
+        <div id="scenario-buttons" class="scenario-buttons" role="group" aria-label="Schedule scenarios"></div>
+        <div class="scenario-summary">
+          <span class="summary-icon" aria-hidden="true">✓</span>
+          <div>
+            <h3 id="scenario-title"></h3>
+            <p id="scenario-description"></p>
+          </div>
+          <span id="change-count" class="change-count"></span>
+        </div>
+
+        <div class="workspace">
+          <section class="calendar-panel" aria-labelledby="calendar-title">
+            <div class="calendar-heading">
+              <div>
+                <p class="panel-kicker">SAMPLE PROPERTY</p>
+                <h2 id="calendar-title">October <span>2026</span></h2>
+              </div>
+              <span class="month-note">Select a day to explore</span>
+            </div>
+            <div class="legend" aria-label="Calendar legend">
+              <span><i class="legend-dot booking-dot" aria-hidden="true"></i><span id="booking-legend">Reserved</span></span>
+              <span id="family-legend" hidden><i class="legend-dot family-dot" aria-hidden="true"></i>Host blocked</span>
+              <span><i class="legend-dot reminder-dot" aria-hidden="true"></i>Reminders</span>
+            </div>
+            <div class="weekdays" aria-hidden="true">
+              <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+            </div>
+            <div id="calendar" class="calendar-days" role="group" aria-label="October 2026 calendar"></div>
+            <div class="calendar-stats" aria-label="Schedule totals">
+              <div><strong id="stay-count">—</strong><span id="stay-count-label">reserved dates</span></div>
+              <div><strong id="reminder-count">—</strong><span>reminders</span></div>
+              <div><strong id="duplicate-count">—</strong><span>duplicate tasks</span></div>
+            </div>
+          </section>
+
+          <aside class="reminder-panel" aria-labelledby="reminder-title">
+            <div class="reminder-heading">
+              <div>
+                <p class="panel-kicker">THE NEXT STEPS</p>
+                <h2 id="reminder-title">Upcoming reminders</h2>
+              </div>
+              <button id="show-all" class="text-button" type="button" hidden>Show all</button>
+            </div>
+            <div id="day-stays" class="day-stays" hidden></div>
+            <div id="reminder-list" class="reminder-list"></div>
+            <button id="expand-reminders" class="expand-button" type="button" hidden>View all reminders</button>
+            <p id="reminder-footnote" class="reminder-footnote">Choose Enrich to reveal the booking details.</p>
+          </aside>
+        </div>
+
+        <p id="announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+        <p id="load-error" class="load-error" role="alert" hidden>The demo data could not load. Refresh the page to try again.</p>
+        <noscript><p class="load-error">Enable JavaScript to explore the demo scenarios.</p></noscript>
+      </section>
+
+      <section class="how-it-works" aria-labelledby="how-title">
+        <h2 id="how-title">A little less to keep track of.</h2>
+        <div class="steps">
+          <article><span class="step-number">01</span><h3>Bring bookings together</h3><p>Calendar exports and reservation emails become one booking history.</p></article>
+          <article><span class="step-number">02</span><h3>Plan the upkeep</h3><p>Checkout counts and guest nights determine when maintenance is due.</p></article>
+          <article><span class="step-number">03</span><h3>Keep it in step</h3><p>Changed plans update existing events and reminders across repeat syncs.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>Host Helper <span aria-hidden="true">·</span> Python, SQLite &amp; Google APIs</p>
+      <a href="https://github.com/Satoshilab21/host-helper#how-it-works">Explore the project <span aria-hidden="true">↗</span></a>
+      <p class="demo-disclosure">Preset scenarios generated by Host Helper's Python code. This preview uses sample data and does not connect to Google.</p>
+    </footer>
+  </body>
+</html>

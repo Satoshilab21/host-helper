@@ -1,0 +1,3 @@
+# Compatibility for deployments using pip install -r requirements.txt.
+# Runtime dependencies are maintained in pyproject.toml.
+-e .

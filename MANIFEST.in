@@ -1,0 +1,7 @@
+include .env.example .gitignore .gitleaks.toml .pre-commit-config.yaml
+include CONTRIBUTING.md SECURITY.md requirements.txt run.py authorize.py
+recursive-include docs *.md *.svg
+recursive-include tests *.py
+recursive-include .github *.yml
+recursive-include scripts *.py
+recursive-include demo *.html *.css *.js *.svg
